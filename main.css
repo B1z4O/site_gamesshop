@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > header {
+    padding: 16px 0;
+    background-color: rgba(90, 0, 194, 0.849);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+header li {
+    display: inline;
+    font-size: 18px;
+}
+
+header nav li a,
+header .container {
+    text-align: end;
+}
+
+header li a,
+h1 {
+    color: whitesmoke;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Bungee", cursive;
+}
+
+main {
+    margin: 24px;
+}
+
+body,
+input,
+textarea,
+footer {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+}
+
+section .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 24px;
+    margin-right: 8px;
+}
+
+.brands-list li {
+    display: inline;
+}
+
+section {
+    padding: 24px 0;
+    color: rgba(90, 0, 194, 0.849);
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+section h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.store-front{
+    margin-right: 32px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 6px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    height: 180px;
+    resize: none;
+}
+
+form button {
+    background-color: rgba(90, 0, 194, 0.849);
+    color: whitesmoke;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(67, 80, 255, 0.849);
+}
+
+input:focus,
+textarea:focus {
+    outline-color: rgba(90, 0, 194, 0.849);
+}
+
+footer {
+    padding: 16px 0;
+    background-color: rgba(90, 0, 194, 0.849);
+    color: whitesmoke;
+}
+
+footer .container {
+    margin: 10px;
+}
